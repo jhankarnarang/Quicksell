@@ -201,3 +201,13 @@ select{
 .not-available {
   background-color: grey; 
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80%; 
+  }
+
+  .user {
+    width: 80%; 
+  }
+}
